@@ -20,7 +20,7 @@ class AdditionalAssetsViewHelper extends AbstractBackendViewHelper
 
     /**
      * @var \TYPO3\CMS\Core\Page\PageRenderer
-     * @inject
+     * @TYPO3\CMS\Extbase\Annotation\Inject
      */
     protected $pageRenderer;
 

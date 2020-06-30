@@ -10,6 +10,8 @@ Vidi for TYPO3 CMS |badge_travis| |badge_scrutinizer| |badge_coverage|
 .. |badge_coverage| image:: https://scrutinizer-ci.com/g/fabarea/vidi/badges/coverage.png?b=master
    :target: https://scrutinizer-ci.com/g/fabarea/vidi
 
+Fork to support TYPO3 10 LTS
+
 Vidi stands for "versatile and interactive display" and is the code name of a list component
 designed for listing all kind of records along with advanced filtering capabilities. By default the
 extension ships two examples for FE Users / Groups but is configurable for any kind of data type.

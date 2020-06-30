@@ -51,7 +51,7 @@ class VidiDbBackend
 
     /**
      * @var \TYPO3\CMS\Extbase\Service\EnvironmentService
-     * @inject
+     * @TYPO3\CMS\Extbase\Annotation\Inject
      */
     protected $environmentService;
 

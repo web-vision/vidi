@@ -105,7 +105,7 @@ class Query implements QueryInterface
      * The query settings.
      *
      * @var \Fab\Vidi\Persistence\QuerySettings
-     * @inject
+     * @TYPO3\CMS\Extbase\Annotation\Inject
      */
     protected $querySettings;
 

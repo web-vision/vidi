@@ -1,5 +1,5 @@
 {
-	"name": "fab/vidi",
+	"name": "web-vision/vidi",
 	"type": "typo3-cms-extension",
 	"description": "Generic listing of records with versatile ways of interacting with the data, e.g. advanced filter, inline editing, mass editing, ... Veni, vidi, vici!",
 	"homepage": "https://github.com/fabarea/vidi",

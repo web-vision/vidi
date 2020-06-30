@@ -21,7 +21,7 @@ class SelectionController extends ActionController
 
     /**
      * @var \Fab\Vidi\Domain\Repository\SelectionRepository
-     * @inject
+     * @TYPO3\CMS\Extbase\Annotation\Inject
      */
     protected $selectionRepository;
 
