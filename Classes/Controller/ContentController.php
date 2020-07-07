@@ -88,8 +88,8 @@ class ContentController extends ActionController
      *
      * @param array $columns corresponds to columns to be rendered.
      * @param array $matches
-     * @validate $columns Fab\Vidi\Domain\Validator\ColumnsValidator
-     * @validate $matches Fab\Vidi\Domain\Validator\MatchesValidator
+     * @TYPO3\CMS\Extbase\Annotation\Validate("Fab\Vidi\Domain\Validator\ColumnsValidator", param="columns")
+     * @TYPO3\CMS\Extbase\Annotation\Validate("Fab\Vidi\Domain\Validator\MatchesValidator", param="matches")
      * @return void
      */
     public function listAction(array $columns = [], $matches = [])

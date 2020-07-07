@@ -120,6 +120,7 @@ class BackendUtility
      */
     public static function getModuleUrl($moduleName, $urlParameters = [])
     {
+        $moduleName = str_replace('module_', '', $moduleName);
         $uriBuilder = GeneralUtility::makeInstance(UriBuilder::class);
         try {
             $uri = $uriBuilder->buildUriFromRoute($moduleName, $urlParameters);

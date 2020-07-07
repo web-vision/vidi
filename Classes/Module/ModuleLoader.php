@@ -375,8 +375,7 @@ class ModuleLoader
     public function getModuleConfiguration($key = '')
     {
 
-        $vidiModuleCode = $this->getSignature();
-
+        $vidiModuleCode = str_replace('module_', '', $this->getSignature());
         // Module code must exist
         if (empty($GLOBALS['TBE_MODULES_EXT']['vidi'][$vidiModuleCode])) {
             $message = sprintf('Invalid or not existing module code "%s"', $vidiModuleCode);

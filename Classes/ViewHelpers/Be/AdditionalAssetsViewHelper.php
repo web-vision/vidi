@@ -55,7 +55,8 @@ class AdditionalAssetsViewHelper extends AbstractBackendViewHelper
     protected function resolvePath($uri)
     {
         $uri = GeneralUtility::getFileAbsFileName($uri);
-        $uri = substr($uri, strlen(PATH_site));
+        $sitePath = \TYPO3\CMS\Core\Core\Environment::getPublicPath();
+        $uri = substr($uri, strlen($sitePath));
         if (TYPO3_MODE === 'BE' && $uri !== false) {
             $uri = '../' . $uri;
         }
